@@ -215,6 +215,7 @@ public class Frame extends JFrame implements ActionListener{
     }
     private Automaton getAutomaton(String path){
     	return Automaton.importFromFile(path);
+    	//René sucks my dick.
     }
     //Setting JMenu:
     private void setMenuBar(){
