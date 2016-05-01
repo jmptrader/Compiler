@@ -9,7 +9,7 @@ public class AFD extends Automaton{
 //Attributes:
 	//The same as the superclass.
 //Operations:
-	//Constructors:
+	//Constructors::::
 	public AFD(String expression){
 		this(Thompson.algorithm(expression));
 	}
